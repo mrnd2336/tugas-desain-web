@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tugas 4</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Form Data Barang</legend>
+
+        <table>
+          <tr>
+            <td><label for="cb">Code Barang</label></td>
+            <td>:</td>
+            <td>
+              <input type="text" id="cb" name="cb" placeholder="CB-001" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="nama">Nama Barang</label></td>
+            <td>:</td>
+            <td>
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukkan Nama Barang"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="kategori">Kategori</label></td>
+            <td>:</td>
+            <td>
+              <select id="kategori" name="kategori">
+                <option value="" disabled selected>Pilih Kategori</option>
+                <option value="elektronik">Elektronik</option>
+                <option value="furniture">Furniture</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Kondisi</label></td>
+            <td>:</td>
+            <td>
+              <label
+                ><input type="radio" name="kondisi" value="baik" />Baik</label
+              >
+              <label
+                ><input type="radio" name="kondisi" value="rusak" />Rusak</label
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="keterangan">Keterangan</label></td>
+            <td>:</td>
+            <td>
+              <textarea
+                name="keterangan"
+                id="keterangan"
+                rows="4"
+                cols="40"
+                placeholder="Masukkan Keterangan"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><button type="submit">Submit</button></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
